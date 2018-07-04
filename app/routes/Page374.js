@@ -8,6 +8,7 @@ import React, { Component } from "react";
 
 import { Container } from "modules/Container";
 import { Link } from "modules/Router";
+import { EmptySpace } from "modules/Layout";
 import { Footer } from "modules/Footer";
 import { Hover } from "modules/Animations";
 
@@ -76,13 +77,13 @@ class Page374 extends Component {
               <span style={{ display: "block" }}>
                 Chrome 50 for desktop saw one of the its biggest revamp in 4 years. This project that spanned across an entire year and for which I was the visual lead consisted in redesigning Chrome core UI from the ground up for all desktop platforms. Starting with Chrome OS, we entirely rethought the way Chrome is implemented, starting by removing any type of bitmap assets such as .png to entirely render it programmatically, which removed a total of ~1200 pngs. Chrome should now scale way better across PPIs, including on Windows when it will be deployed.
               </span>
-              <span style={{ display: "block" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
               <span style={{ display: "block" }}>
                 In addition, we brought Material motion to the core UI with complex morphing ripples and bubbles burst on the icons. We also created two different layout: One mouse optimized layout and a more spaced-out one that we are calling "hybrid", which will be deployed by default on touch-enabled Chromebooks. The goal of the layout is to enable better touchability without comprimising layout density and productivity.
               </span>
-              <span style={{ display: "block" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
               <span>
                 Also new with Chrome, we introduced a fully re-themed Incognito mode, sporting a beautiful black layout from the tabs to the toolbar and even the NTP and omnibox dropdown.
               </span>
@@ -106,7 +107,7 @@ class Page374 extends Component {
               {" "}Chrome normal layout
             </span>
           </div>
-          <span style={{ display: "block" }}>br</span>
+          <EmptySpace height="30" />
           <p
             style={{
               fontFamily: "Roboto",
@@ -238,7 +239,7 @@ class Page374 extends Component {
               {" "}Chrome Hybrid layout
             </span>
           </div>
-          <span style={{ display: "block" }}>br</span>
+          <EmptySpace height="30" />
           <p
             style={{
               fontFamily: "Roboto",
@@ -387,7 +388,7 @@ class Page374 extends Component {
               Common elements
             </span>
           </div>
-          <span style={{ display: "block" }}>br</span>
+          <EmptySpace height="30" />
           <p
             style={{
               fontFamily: "Roboto",

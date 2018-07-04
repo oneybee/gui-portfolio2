@@ -8,6 +8,7 @@ import React, { Component } from "react";
 
 import { Container } from "modules/Container";
 import { Link } from "modules/Router";
+import { EmptySpace } from "modules/Layout";
 import { Footer } from "modules/Footer";
 import { Hover } from "modules/Animations";
 
@@ -80,18 +81,18 @@ class Page670 extends Component {
               <Link style={{ textDecoration: "underline", cursor: "pointer" }}>
                 <span style={{ textDecorationStyle: "solid" }}>Chrome OS.</span>
               </Link>
-              <span style={{ display: "block" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
               <span style={{ display: "block" }}>
                 Similarily to its Chrome OS counterpart, and while using Cocoa, the Mac version of the Core UI ditches bitmap assets in favor of complete programmatic rendering. The new chrome for Mac also gets the new dark incognito mode.
               </span>
-              <span style={{ display: "block" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
               <span style={{ display: "block" }}>
                 My responsibility on this project was to design, spec and work closely with Engineering to bring the new design to life in its smallest details. Engineering worked tirelessly to give Chrome this revamp, making it more inline with it's MacOS environment and more consistent with the Chrome brand.
               </span>
-              <span style={{ display: "block" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
               <span>
                 At the same time I was working on the Core UI, other team-members worked on other core features of the browser, also featured in a few of the screenshots below such as the new Omnibox security visuals (created by
                 {" "}

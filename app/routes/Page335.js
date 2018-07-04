@@ -8,6 +8,7 @@ import React, { Component } from "react";
 
 import { Container } from "modules/Container";
 import { Link } from "modules/Router";
+import { EmptySpace } from "modules/Layout";
 import { Footer } from "modules/Footer";
 import { Hover } from "modules/Animations";
 
@@ -76,9 +77,9 @@ class Page335 extends Component {
               <span style={{ display: "block" }}>
                 The Chrome OS system menu is one of the key part of all Chromebook. It is the quick access point to the most essential parts of the operationg system, akin to the quick settings menu on Android. Always avaialbe, this transient UI enables the user to control the core features of the OS such as WiFi, tethering, data, brightness, volume, VPN, Bluetooth, etc...
               </span>
-              <span style={{ display: "block", color: "#ffffff" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
               <span style={{ display: "block" }}>
                 The System menu is also the parent of various other system panels, all of which are attached to the shelf, providing the user quick access to all the system features he might need at the right time. In ChromeOS M56, this UI surface was redesigned in depth to bring a clean, balanced UI as well as new features. We made a point of delivering pixel perfect implementation based on thorough and well documented specs and mock-ups which you can discover below.
               </span>
@@ -114,9 +115,9 @@ class Page335 extends Component {
               style={{ maxWidth: "100%" }}
             />
           </Container>
-          <span style={{ display: "block" }}>br</span>
-          <span style={{ display: "block" }}>br</span>
-          <span style={{ display: "block" }}>br</span>
+          <EmptySpace height="30" />
+          <EmptySpace height="30" />
+          <EmptySpace height="30" />
           <p>
             <span
               style={{
@@ -131,7 +132,7 @@ class Page335 extends Component {
             >
               System menu specification
             </span>
-            <span style={{ display: "block" }}>br</span>
+            <EmptySpace height="30" />
             <span
               style={{
                 fontSize: "15px",

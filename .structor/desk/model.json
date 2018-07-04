@@ -1367,7 +1367,7 @@
                                     "style": {
                                       "display": "inline-block",
                                       "color": "#2963ff",
-                                      "height": "40px"
+                                      "height": "36px"
                                     },
                                     "transition": {
                                       "target": "all",
@@ -1566,14 +1566,15 @@
                                     "style": {
                                       "display": "inline-block",
                                       "color": "#2963ff",
-                                      "height": "38px"
+                                      "height": "36px"
                                     },
                                     "transition": {
                                       "target": "all",
                                       "time": 250
                                     },
                                     "color": "#fff",
-                                    "boxShadow": "0 5px 20px rgba(41,99,255,0.09)"
+                                    "boxShadow": "0 5px 20px rgba(41,99,255,0.09)",
+                                    "backgroundColor": "#2963ff"
                                   }
                                 }
                               ]
@@ -3544,38 +3545,31 @@
                       "text": "The Chrome OS system menu is one of the key part of all Chromebook. It is the quick access point to the most essential parts of the operationg system, akin to the quick settings menu on Android. Always avaialbe, this transient UI enables the user to control the core features of the OS such as WiFi, tethering, data, brightness, volume, VPN, Bluetooth, etc..."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block",
-                          "color": "#ffffff"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -3713,37 +3707,31 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -3768,15 +3756,13 @@
                   "text": "System menu specification"
                 },
                 {
-                  "type": "span",
+                  "type": "EmptySpace",
                   "variant": "default",
-                  "props": {
-                    "style": {
-                      "display": "block"
-                    }
-                  },
                   "children": [],
-                  "text": "br"
+                  "namespace": "Layout",
+                  "props": {
+                    "height": "30"
+                  }
                 },
                 {
                   "type": "span",
@@ -4397,26 +4383,22 @@
                       }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -4430,26 +4412,22 @@
                       "text": "Similarily to its Chrome OS counterpart, and while using Cocoa, the Mac version of the Core UI ditches bitmap assets in favor of complete programmatic rendering. The new chrome for Mac also gets the new dark incognito mode."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -4463,26 +4441,22 @@
                       "text": "My responsibility on this project was to design, spec and work closely with Engineering to bring the new design to life in its smallest details. Engineering worked tirelessly to give Chrome this revamp, making it more inline with it's MacOS environment and more consistent with the Chrome brand."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -5022,26 +4996,22 @@
                       "text": "Chrome 50 for desktop saw one of the its biggest revamp in 4 years. This project that spanned across an entire year and for which I was the visual lead consisted in redesigning Chrome core UI from the ground up for all desktop platforms. Starting with Chrome OS, we entirely rethought the way Chrome is implemented, starting by removing any type of bitmap assets such as .png to entirely render it programmatically, which removed a total of ~1200 pngs. Chrome should now scale way better across PPIs, including on Windows when it will be deployed."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -5055,26 +5025,22 @@
                       "text": "In addition, we brought Material motion to the core UI with complex morphing ripples and bubbles burst on the icons. We also created two different layout: One mouse optimized layout and a more spaced-out one that we are calling \"hybrid\", which will be deployed by default on touch-enabled Chromebooks. The goal of the layout is to enable better touchability without comprimising layout density and productivity."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -5115,15 +5081,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -5397,15 +5361,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -5718,15 +5680,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -6770,26 +6730,22 @@
                       "text": "Chrome M46 brought the revamped version of the Built-in Chrome OS files app. This new version features a revamped UI and UX with the addition of cloud sync as well as third party services such as DropBox. The UI is a scaled down version of the Material design spec for fit the need of a more condensed desktop UI. Ripples and MD effect have also been modified to deliver a delightful experience on the platform."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -6803,26 +6759,22 @@
                       "text": "In addition, we brought Material motion to the core UI with complex morphing ripples and bubbles burst on the icons. We also created two different layout: One mouse optimized layout and a more spaced-out one that we are calling \"hybrid\", which will be deployed by default on touch-enabled Chromebooks. The goal of the layout is to enable better touchability without comprimising layout density and productivity."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -6863,15 +6815,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -7145,15 +7095,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -7466,15 +7414,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -8186,26 +8132,22 @@
                       "text": "Chrome 50 for desktop saw one of the its biggest revamp in 4 years. This project that spanned across an entire year and for which I was the visual lead consisted in redesigning Chrome core UI from the ground up for all desktop platforms. Starting with Chrome OS, we entirely rethought the way Chrome is implemented, starting by removing any type of bitmap assets such as .png to entirely render it programmatically, which removed a total of ~1200 pngs. Chrome should now scale way better across PPIs, including on Windows when it will be deployed."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -8219,26 +8161,22 @@
                       "text": "In addition, we brought Material motion to the core UI with complex morphing ripples and bubbles burst on the icons. We also created two different layout: One mouse optimized layout and a more spaced-out one that we are calling \"hybrid\", which will be deployed by default on touch-enabled Chromebooks. The goal of the layout is to enable better touchability without comprimising layout density and productivity."
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
-                      "type": "span",
+                      "type": "EmptySpace",
                       "variant": "default",
-                      "props": {
-                        "style": {
-                          "display": "block"
-                        }
-                      },
                       "children": [],
-                      "text": "br"
+                      "namespace": "Layout",
+                      "props": {
+                        "height": "30"
+                      }
                     },
                     {
                       "type": "span",
@@ -8279,15 +8217,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -8561,15 +8497,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",
@@ -8882,15 +8816,13 @@
               ]
             },
             {
-              "type": "span",
+              "type": "EmptySpace",
               "variant": "default",
-              "props": {
-                "style": {
-                  "display": "block"
-                }
-              },
               "children": [],
-              "text": "br"
+              "namespace": "Layout",
+              "props": {
+                "height": "30"
+              }
             },
             {
               "type": "p",

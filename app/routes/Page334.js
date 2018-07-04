@@ -284,11 +284,12 @@ class Page334 extends Component {
                       style={{
                         display: "inline-block",
                         color: "#2963ff",
-                        height: "38px"
+                        height: "36px"
                       }}
                       transition={{ target: "all", time: 250 }}
                       color="#fff"
                       boxShadow="0 5px 20px rgba(41,99,255,0.09)"
+                      backgroundColor="#2963ff"
                     >
                       <span
                         style={{
@@ -382,11 +383,12 @@ class Page334 extends Component {
                       style={{
                         display: "inline-block",
                         color: "#2963ff",
-                        height: "38px"
+                        height: "36px"
                       }}
                       transition={{ target: "all", time: 250 }}
                       color="#fff"
                       boxShadow="0 5px 20px rgba(41,99,255,0.09)"
+                      backgroundColor="#2963ff"
                     >
                       <span
                         style={{

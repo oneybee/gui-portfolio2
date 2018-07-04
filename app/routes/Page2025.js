@@ -8,6 +8,7 @@ import React, { Component } from "react";
 
 import { Container } from "modules/Container";
 import { Link } from "modules/Router";
+import { EmptySpace } from "modules/Layout";
 import { Footer } from "modules/Footer";
 import { Hover } from "modules/Animations";
 
@@ -76,13 +77,13 @@ class Page2025 extends Component {
               <span style={{ display: "block" }}>
                 Chrome M46 brought the revamped version of the Built-in Chrome OS files app. This new version features a revamped UI and UX with the addition of cloud sync as well as third party services such as DropBox. The UI is a scaled down version of the Material design spec for fit the need of a more condensed desktop UI. Ripples and MD effect have also been modified to deliver a delightful experience on the platform.
               </span>
-              <span style={{ display: "block" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
               <span style={{ display: "block" }}>
                 In addition, we brought Material motion to the core UI with complex morphing ripples and bubbles burst on the icons. We also created two different layout: One mouse optimized layout and a more spaced-out one that we are calling "hybrid", which will be deployed by default on touch-enabled Chromebooks. The goal of the layout is to enable better touchability without comprimising layout density and productivity.
               </span>
-              <span style={{ display: "block" }}>br</span>
-              <span style={{ display: "block" }}>br</span>
+              <EmptySpace height="30" />
+              <EmptySpace height="30" />
               <span>
                 Also new with Chrome, we introduced a fully re-themed Incognito mode, sporting a beautiful black layout from the tabs to the toolbar and even the NTP and omnibox dropdown.
               </span>
@@ -106,7 +107,7 @@ class Page2025 extends Component {
               {" "}Chrome normal layout
             </span>
           </div>
-          <span style={{ display: "block" }}>br</span>
+          <EmptySpace height="30" />
           <p
             style={{
               fontFamily: "Roboto",
@@ -238,7 +239,7 @@ class Page2025 extends Component {
               {" "}Chrome Hybrid layout
             </span>
           </div>
-          <span style={{ display: "block" }}>br</span>
+          <EmptySpace height="30" />
           <p
             style={{
               fontFamily: "Roboto",
@@ -387,7 +388,7 @@ class Page2025 extends Component {
               Common elements
             </span>
           </div>
-          <span style={{ display: "block" }}>br</span>
+          <EmptySpace height="30" />
           <p
             style={{
               fontFamily: "Roboto",
