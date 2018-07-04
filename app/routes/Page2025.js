@@ -57,7 +57,7 @@ class Page2025 extends Component {
                   lineHeight: "40px"
                 }}
               >
-                {" "}Chrome for Chrome OS
+                {" "}Chrome OS Files app
               </span>
             </div>
             <p
@@ -73,7 +73,7 @@ class Page2025 extends Component {
               }}
             >
               <span style={{ display: "block" }}>
-                Chrome 50 for desktop saw one of the its biggest revamp in 4 years. This project that spanned across an entire year and for which I was the visual lead consisted in redesigning Chrome core UI from the ground up for all desktop platforms. Starting with Chrome OS, we entirely rethought the way Chrome is implemented, starting by removing any type of bitmap assets such as .png to entirely render it programmatically, which removed a total of ~1200 pngs. Chrome should now scale way better across PPIs, including on Windows when it will be deployed.
+                Chrome M46 brought the revamped version of the Built-in Chrome OS files app. This new version features a revamped UI and UX with the addition of cloud sync as well as third party services such as DropBox. The UI is a scaled down version of the Material design spec for fit the need of a more condensed desktop UI. Ripples and MD effect have also been modified to deliver a delightful experience on the platform.
               </span>
               <span style={{ display: "block" }}>br</span>
               <span style={{ display: "block" }}>br</span>

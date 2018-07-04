@@ -6661,7 +6661,7 @@
                         }
                       },
                       "children": [],
-                      "text": "<div class=\"row\" style=\"color: rgba(0, 0, 0, 0.7); font-family: Roboto, sans-serif; font-size: 15px; white-space: normal;\"><div class=\"portfolio-project-container\" style=\"padding: 29.1562px 0px;\"><p style=\"padding: 21.8594px 0px; line-height: 3rem; margin-bottom: 2.5rem;\">Chrome M46 brought the revamped version of the Built-in Chrome OS files app. This new version features a revamped UI and UX with the addition of cloud sync as well as third party services such as DropBox. The UI is a scaled down version of the Material design spec for fit the need of a more condensed desktop UI. Ripples and MD effect have also been modified to deliver a delightful experience on the platform.</p><div><br></div></div></div><div class=\"row\" style=\"color: rgba(0, 0, 0, 0.7); font-family: Roboto, sans-serif; font-size: 15px; white-space: normal;\"><div class=\"onecolumn\"></div></div>"
+                      "text": "Chrome M46 brought the revamped version of the Built-in Chrome OS files app. This new version features a revamped UI and UX with the addition of cloud sync as well as third party services such as DropBox. The UI is a scaled down version of the Material design spec for fit the need of a more condensed desktop UI. Ripples and MD effect have also been modified to deliver a delightful experience on the platform."
                     },
                     {
                       "type": "span",
@@ -9305,24 +9305,40 @@
                   "variant": "default",
                   "children": [
                     {
-                      "type": "span",
-                      "text": "back to work",
-                      "props": {
-                        "style": {
-                          "fontSize": "12px",
-                          "lineHeight": "38px",
-                          "marginBottom": "10px",
-                          "textTransform": "uppercase",
-                          "paddingLeft": "30px",
-                          "paddingRight": "30px",
-                          "letterSpacing": "1px",
-                          "display": "inline-block",
-                          "color": "rgb(41, 99, 255)",
-                          "fontWeight": 600,
-                          "border": "1px solid #2963ff",
-                          "borderRadius": "4px",
-                          "cursor": "pointer"
+                      "type": "Hover",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "back to work",
+                          "props": {
+                            "style": {
+                              "fontSize": "12px",
+                              "lineHeight": "38px",
+                              "marginBottom": "10px",
+                              "textTransform": "uppercase",
+                              "paddingLeft": "30px",
+                              "paddingRight": "30px",
+                              "letterSpacing": "1px",
+                              "display": "inline-block",
+                              "color": "rgb(41, 99, 255)",
+                              "fontWeight": 600,
+                              "border": "1px solid #2963ff",
+                              "borderRadius": "4px",
+                              "cursor": "pointer"
+                            }
+                          }
                         }
+                      ],
+                      "namespace": "Animations",
+                      "props": {
+                        "transition": {
+                          "target": "all"
+                        },
+                        "background": {
+                          "color": "pink"
+                        },
+                        "backgroundColor": "pink"
                       }
                     }
                   ],
