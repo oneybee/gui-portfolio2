@@ -1367,14 +1367,15 @@
                                     "style": {
                                       "display": "inline-block",
                                       "color": "#2963ff",
-                                      "height": "38px"
+                                      "height": "40px"
                                     },
                                     "transition": {
                                       "target": "all",
                                       "time": 250
                                     },
                                     "color": "#fff",
-                                    "boxShadow": "0 5px 20px rgba(41,99,255,0.09)"
+                                    "boxShadow": "0 5px 20px rgba(41,99,255,0.09)",
+                                    "backgroundColor": "#2963ff"
                                   }
                                 }
                               ],
@@ -3880,8 +3881,7 @@
                         "style": {
                           "height": "40px",
                           "color": "rgb(41, 99, 255)",
-                          "borderRadius": "4px",
-                          "paddingBottom": "10px"
+                          "borderRadius": "4px"
                         },
                         "color": "white",
                         "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
