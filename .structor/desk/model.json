@@ -3880,7 +3880,8 @@
                         "style": {
                           "height": "40px",
                           "color": "rgb(41, 99, 255)",
-                          "borderRadius": "4px"
+                          "borderRadius": "4px",
+                          "paddingBottom": "10px"
                         },
                         "color": "white",
                         "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
