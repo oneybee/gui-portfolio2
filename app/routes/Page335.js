@@ -180,8 +180,7 @@ class Page335 extends Component {
             </span>
             <Link to="work">
               <Hover
-                transition={{ target: "all", time: 250 }}
-                backgroundColor="#2963ff"
+                transition={{ time: 250, target: "all" }}
                 style={{
                   height: "40px",
                   color: "rgb(41, 99, 255)",
@@ -189,6 +188,7 @@ class Page335 extends Component {
                 }}
                 color="white"
                 boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                backgroundColor="#2963ff"
               >
                 <span
                   style={{

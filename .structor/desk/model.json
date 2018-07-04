@@ -3873,18 +3873,18 @@
                       "variant": "'back to work' footer link hover",
                       "props": {
                         "transition": {
-                          "target": "all",
-                          "time": 250
+                          "time": 250,
+                          "target": "all"
                         },
                         "background": {},
-                        "backgroundColor": "#2963ff",
                         "style": {
                           "height": "40px",
                           "color": "rgb(41, 99, 255)",
                           "borderRadius": "4px"
                         },
                         "color": "white",
-                        "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+                        "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17",
+                        "backgroundColor": "#2963ff"
                       },
                       "children": [
                         {

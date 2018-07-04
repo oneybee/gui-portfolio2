@@ -3,12 +3,12 @@ import Page334 from "./Page334";
 import Page133 from "./Page133";
 import Page160 from "./Page160";
 import Page335 from "./Page335";
-import Page670 from "./Page670";
 import Page336 from "./Page336";
+import Page670 from "./Page670";
 import Page374 from "./Page374";
 import Page1914 from "./Page1914";
-import Page2136 from "./Page2136";
 import Page2025 from "./Page2025";
+import Page2136 from "./Page2136";
 
 class App extends React.Component {
   render() {
@@ -46,14 +46,14 @@ export default {
       component: Page335
     },
     {
-      path: "/chrome-macos",
-      name: "/chrome-macos",
-      component: Page670
-    },
-    {
       path: "/chrome-windows",
       name: "/chrome-windows",
       component: Page336
+    },
+    {
+      path: "/chrome-macos",
+      name: "/chrome-macos",
+      component: Page670
     },
     {
       path: "/chrome-cros",
@@ -66,14 +66,14 @@ export default {
       component: Page1914
     },
     {
-      path: "/gallery-app",
-      name: "/gallery-app",
-      component: Page2136
-    },
-    {
       path: "/files-app",
       name: "/files-app",
       component: Page2025
+    },
+    {
+      path: "/gallery-app",
+      name: "/gallery-app",
+      component: Page2136
     },
     {
       path: "*",
