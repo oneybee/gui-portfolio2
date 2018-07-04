@@ -9,6 +9,7 @@ import React, { Component } from "react";
 import { Container } from "modules/Container";
 import { Link } from "modules/Router";
 import { Footer } from "modules/Footer";
+import { Hover } from "modules/Animations";
 
 class Page1914 extends Component {
   // eslint-disable-line react/prefer-stateless-function
@@ -139,25 +140,36 @@ class Page1914 extends Component {
               THANKS FOR watching
             </span>
             <Link to="work">
-              <span
+              <Hover
+                transition={{ target: "all", time: 250 }}
+                backgroundColor="#2963ff"
                 style={{
-                  fontSize: "12px",
-                  lineHeight: "38px",
-                  marginBottom: "10px",
-                  textTransform: "uppercase",
-                  paddingLeft: "30px",
-                  paddingRight: "30px",
-                  letterSpacing: "1px",
-                  display: "inline-block",
+                  height: "40px",
                   color: "rgb(41, 99, 255)",
-                  fontWeight: 600,
-                  border: "1px solid #2963ff",
-                  borderRadius: "4px",
-                  cursor: "pointer"
+                  borderRadius: "4px"
                 }}
+                color="white"
+                boxShadow="0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
               >
-                back to work
-              </span>
+                <span
+                  style={{
+                    fontSize: "12px",
+                    lineHeight: "38px",
+                    marginBottom: "10px",
+                    textTransform: "uppercase",
+                    paddingLeft: "30px",
+                    paddingRight: "30px",
+                    letterSpacing: "1px",
+                    display: "inline-block",
+                    fontWeight: 600,
+                    border: "1px solid #2963ff",
+                    cursor: "pointer",
+                    borderRadius: "4px"
+                  }}
+                >
+                  back to work
+                </span>
+              </Hover>
             </Link>
           </Footer>
         </Container>

@@ -33,5 +33,47 @@
         "children": []
       }
     ]
+  },
+  {
+    "type": "Hover",
+    "namespace": "Animations",
+    "variant": "'back to work' footer link hover",
+    "props": {
+      "transition": {
+        "target": "all",
+        "time": 250
+      },
+      "background": {},
+      "backgroundColor": "#2963ff",
+      "style": {
+        "height": "40px",
+        "color": "rgb(41, 99, 255)",
+        "borderRadius": "4px"
+      },
+      "color": "white",
+      "boxShadow": "0 12px 65px 2px #2963ff4d, 0 1px 2px 1px #2963ff17"
+    },
+    "children": [
+      {
+        "type": "span",
+        "text": "back to work",
+        "props": {
+          "style": {
+            "fontSize": "12px",
+            "lineHeight": "38px",
+            "marginBottom": "10px",
+            "textTransform": "uppercase",
+            "paddingLeft": "30px",
+            "paddingRight": "30px",
+            "letterSpacing": "1px",
+            "display": "inline-block",
+            "fontWeight": 600,
+            "border": "1px solid #2963ff",
+            "cursor": "pointer",
+            "borderRadius": "4px"
+          }
+        }
+      }
+    ]
   }
 ]
