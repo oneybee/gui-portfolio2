@@ -2203,6 +2203,312 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-00.jpg",
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "8%",
+                      "marginBottom": "2%",
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-00-2.jpg",
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "8%",
+                      "marginBottom": "2%",
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-01.png",
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "8%",
+                      "marginBottom": "2%",
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-02.png",
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "8%",
+                      "marginBottom": "2%",
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-03.png",
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "8%",
+                      "marginBottom": "2%",
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "EmptySpace",
+              "variant": "default",
+              "children": [],
+              "namespace": "Layout",
+              "props": {
+                "height": 60
+              }
+            },
+            {
+              "type": "p",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "span",
+                  "text": "System menu specification",
+                  "props": {
+                    "style": {
+                      "marginTop": "2%",
+                      "fontFamily": "Roboto Mono",
+                      "fontSize": "25px",
+                      "color": "#000000b3",
+                      "fontWeight": 400,
+                      "lineHeight": 1.25,
+                      "display": "block"
+                    }
+                  }
+                },
+                {
+                  "type": "EmptySpace",
+                  "variant": "default",
+                  "children": [],
+                  "namespace": "Layout",
+                  "props": {
+                    "height": 20
+                  }
+                },
+                {
+                  "type": "span",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "marginBottom": "25px",
+                      "display": "block",
+                      "paddingRight": "15%",
+                      "lineHeight": "30px",
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "color": "#000000b3"
+                    }
+                  },
+                  "children": [],
+                  "text": "I used a very thorough set of specification system to deliver high fidelity mock-ups and specs to engineering. All layout surfaces was checked and aligned to the pixel to deliver the cleanest in-OS experience possible. Below are some excerpt from these specs."
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-04.png",
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "8%",
+                      "marginBottom": "2%",
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "div",
+              "variant": "default",
+              "props": {},
+              "children": [
+                {
+                  "type": "img",
+                  "variant": "default",
+                  "props": {
+                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu/cros-system-menu-05.png",
+                    "style": {
+                      "width": "100%",
+                      "marginTop": "8%",
+                      "marginBottom": "2%",
+                      "maxWidth": "100%"
+                    }
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "type": "footer",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "marginTop": "10%",
+                  "borderTopStyle": "solid",
+                  "borderTopWidth": "1px",
+                  "borderTopColor": "#e6e6e6"
+                }
+              },
+              "children": [
+                {
+                  "type": "span",
+                  "text": "thanks for watching",
+                  "props": {
+                    "style": {
+                      "paddingTop": "5%",
+                      "display": "block",
+                      "textTransform": "uppercase",
+                      "color": "#969696",
+                      "fontSize": "14px",
+                      "fontWeight": 400,
+                      "lineHeight": "30px",
+                      "marginBottom": "25px",
+                      "textAlign": "center"
+                    }
+                  }
+                },
+                {
+                  "type": "p",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "display": "block",
+                      "paddingTop": "5%",
+                      "marginBottom": "25px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "Link",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "Hover",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "span",
+                              "variant": "default",
+                              "props": {
+                                "style": {
+                                  "fontSize": "12px",
+                                  "fontWeight": 600,
+                                  "textTransform": "uppercase",
+                                  "lineHeight": "38px",
+                                  "borderRadius": "4px",
+                                  "letterSpacing": "1px"
+                                },
+                                "syle": {}
+                              },
+                              "children": [],
+                              "text": "back to work"
+                            }
+                          ],
+                          "namespace": "Animations",
+                          "props": {
+                            "style": {
+                              "color": "#2963ff",
+                              "height": "38px",
+                              "border": "1px solid #2963ff",
+                              "paddingRight": "30px",
+                              "paddingLeft": "30px",
+                              "borderRadius": "4px",
+                              "lineHeight": "38px",
+                              "cursor": "pointer",
+                              "marginBottom": "10px"
+                            },
+                            "transition": {
+                              "target": "all",
+                              "time": 250
+                            },
+                            "color": "white",
+                            "backgroundColor": "#2963ff",
+                            "boxShadow": "0 5px 20px rgba(41, 99, 255, 0)"
+                          }
+                        }
+                      ],
+                      "namespace": "Router",
+                      "props": {
+                        "style": {
+                          "display": "block",
+                          "textAlign": "center"
+                        },
+                        "to": "work"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "namespace": "Container",
