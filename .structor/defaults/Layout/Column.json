@@ -309,5 +309,172 @@
         "namespace": "PortofolioCard"
       }
     ]
+  },
+  {
+    "type": "Column",
+    "namespace": "Layout",
+    "variant": "gabriel-col6",
+    "props": {
+      "col": 6,
+      "style": {
+        "marginBottom": "6%",
+        "marginTop": "6%"
+      }
+    },
+    "children": [
+      {
+        "type": "div",
+        "variant": "default",
+        "props": {
+          "style": {
+            "paddingTop": "4%",
+            "paddingRight": "4%",
+            "paddingBottom": "5%"
+          }
+        },
+        "children": [
+          {
+            "type": "Link",
+            "variant": "default",
+            "children": [
+              {
+                "type": "Hover",
+                "variant": "default",
+                "children": [
+                  {
+                    "type": "img",
+                    "variant": "default",
+                    "props": {
+                      "src": "http://sebastien-gabriel.com/images/home-feature-system-menu.png",
+                      "style": {
+                        "maxWidth": "100%",
+                        "cursor": "pointer"
+                      }
+                    },
+                    "children": []
+                  }
+                ],
+                "namespace": "Animations",
+                "props": {
+                  "style": {
+                    "display": "inline-block"
+                  },
+                  "transition": {
+                    "target": "all",
+                    "time": 250
+                  },
+                  "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                }
+              }
+            ],
+            "namespace": "Router",
+            "props": {
+              "style": {
+                "display": "inline-block"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {
+          "style": {
+            "fontFamily": "Roboto Mono",
+            "fontSize": "22.5px",
+            "fontWeight": 400,
+            "letterSpacing": "0.4px",
+            "lineHeight": 1.25,
+            "paddingTop": "20px",
+            "paddingBottom": "20px",
+            "color": "#333335",
+            "display": "block"
+          }
+        },
+        "children": [],
+        "text": "Chrome OS System menu"
+      },
+      {
+        "type": "p",
+        "variant": "default",
+        "props": {
+          "style": {
+            "paddingBottom": "25px",
+            "paddingRight": "15%",
+            "fontSize": "15px",
+            "fontWeight": 400,
+            "lineHeight": "30px"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "A case study into the design and specs of the latest revamp of the Chrome OS' system menu, the transient, core point of access of the core system features.",
+            "props": {
+              "style": {
+                "display": "block"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "Link",
+        "variant": "default",
+        "children": [
+          {
+            "type": "Hover",
+            "variant": "default",
+            "children": [
+              {
+                "type": "span",
+                "variant": "default",
+                "props": {
+                  "style": {
+                    "fontSize": "12px",
+                    "fontWeight": 600,
+                    "textTransform": "uppercase",
+                    "lineHeight": "38px",
+                    "borderRadius": "4px",
+                    "letterSpacing": "1px",
+                    "cursor": "pointer"
+                  },
+                  "syle": {}
+                },
+                "children": [],
+                "text": "see more"
+              }
+            ],
+            "namespace": "Animations",
+            "props": {
+              "style": {
+                "color": "#2963ff",
+                "height": "38px",
+                "border": "1px solid #2963ff",
+                "paddingRight": "30px",
+                "paddingLeft": "30px",
+                "borderRadius": "4px",
+                "lineHeight": "38px"
+              },
+              "transition": {
+                "target": "all",
+                "time": 250
+              },
+              "color": "white",
+              "backgroundColor": "#2963ff",
+              "boxShadow": "0 5px 20px rgba(41, 99, 255, 0)"
+            }
+          }
+        ],
+        "namespace": "Router",
+        "props": {
+          "style": {
+            "display": "block",
+            "marginBottom": "10px"
+          }
+        }
+      }
+    ]
   }
 ]
