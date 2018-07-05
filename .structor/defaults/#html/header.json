@@ -14,5 +14,35 @@
         ]
       }
     ]
+  },
+  {
+    "type": "header",
+    "variant": "gabriel-header",
+    "props": {
+      "style": {
+        "marginTop": "15%",
+        "marginBottom": "15%"
+      }
+    },
+    "children": [
+      {
+        "type": "p",
+        "children": [
+          {
+            "type": "span",
+            "text": "Design at Google. Chrome, Chrome OS and Android.",
+            "props": {
+              "style": {
+                "fontSize": "90px",
+                "fontWeight": 700,
+                "marginBottom": "25px",
+                "paddingRight": "15%",
+                "lineHeight": "85px"
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
