@@ -1627,7 +1627,7 @@
                   "props": {
                     "col": 6,
                     "style": {
-                      "marginBottom": "20%"
+                      "marginBottom": "10%"
                     }
                   }
                 },
@@ -1740,9 +1740,348 @@
                   "props": {
                     "col": 6,
                     "style": {
-                      "marginBottom": "20%"
+                      "marginBottom": "10%"
                     }
                   }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "paddingBottom": "20px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "Link",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "Hover",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-macos.png",
+                                    "style": {
+                                      "maxWidth": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              "namespace": "Animations",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "transition": {
+                                  "target": "all",
+                                  "time": 250
+                                },
+                                "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                              }
+                            }
+                          ],
+                          "namespace": "Router",
+                          "props": {
+                            "style": {
+                              "display": "inline-block"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "11px",
+                          "fontWeight": 400,
+                          "lineHeight": 1.6,
+                          "color": "#969696",
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "JUL 2016"
+                    },
+                    {
+                      "type": "EmptySpace",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "Layout",
+                      "props": {
+                        "height": 10
+                      }
+                    },
+                    {
+                      "type": "p",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "17px",
+                          "fontWeight": 400,
+                          "fontFamily": "Roboto Mono"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Chrome for MacOS",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "color": "#5A5A5A",
+                              "cursor": "pointer"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "style": {
+                      "marginBottom": "10%"
+                    },
+                    "col": 12
+                  }
+                },
+                {
+                  "type": "Column",
+                  "variant": "default",
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "paddingBottom": "20px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "Link",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "Hover",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/chrome-cros.png",
+                                    "style": {
+                                      "maxWidth": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              "namespace": "Animations",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "transition": {
+                                  "target": "all",
+                                  "time": 250
+                                },
+                                "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                              }
+                            }
+                          ],
+                          "namespace": "Router",
+                          "props": {
+                            "style": {
+                              "display": "inline-block"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "11px",
+                          "fontWeight": 400,
+                          "lineHeight": 1.6,
+                          "color": "#969696",
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "APR 2016"
+                    },
+                    {
+                      "type": "EmptySpace",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "Layout",
+                      "props": {
+                        "height": 10
+                      }
+                    },
+                    {
+                      "type": "p",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "17px",
+                          "fontWeight": 400,
+                          "fontFamily": "Roboto Mono"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Chrome for Chrome OS",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "color": "#5A5A5A",
+                              "cursor": "pointer"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ],
+                  "namespace": "Layout",
+                  "props": {
+                    "col": 6,
+                    "style": {
+                      "marginBottom": "10%"
+                    }
+                  }
+                },
+                {
+                  "type": "Column",
+                  "namespace": "Layout",
+                  "variant": "gabriel-work-col6",
+                  "props": {
+                    "col": 6,
+                    "style": {
+                      "marginBottom": "10%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "div",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "paddingBottom": "20px"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "Link",
+                          "variant": "default",
+                          "children": [
+                            {
+                              "type": "Hover",
+                              "variant": "default",
+                              "children": [
+                                {
+                                  "type": "img",
+                                  "variant": "default",
+                                  "props": {
+                                    "src": "http://sebastien-gabriel.com/images/portfolio/audio-player.png",
+                                    "style": {
+                                      "maxWidth": "100%",
+                                      "cursor": "pointer"
+                                    }
+                                  },
+                                  "children": []
+                                }
+                              ],
+                              "namespace": "Animations",
+                              "props": {
+                                "style": {
+                                  "display": "inline-block"
+                                },
+                                "transition": {
+                                  "target": "all",
+                                  "time": 250
+                                },
+                                "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                              }
+                            }
+                          ],
+                          "namespace": "Router",
+                          "props": {
+                            "style": {
+                              "display": "inline-block"
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "11px",
+                          "fontWeight": 400,
+                          "lineHeight": 1.6,
+                          "color": "#969696",
+                          "display": "block"
+                        }
+                      },
+                      "children": [],
+                      "text": "NOV 2015"
+                    },
+                    {
+                      "type": "EmptySpace",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "Layout",
+                      "props": {
+                        "height": 10
+                      }
+                    },
+                    {
+                      "type": "p",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "fontSize": "17px",
+                          "fontWeight": 400,
+                          "fontFamily": "Roboto Mono"
+                        }
+                      },
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "Chrome OS audio player",
+                          "props": {
+                            "style": {
+                              "display": "inline-block",
+                              "color": "#5A5A5A",
+                              "cursor": "pointer"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
                 }
               ],
               "namespace": "Layout"
@@ -1756,6 +2095,123 @@
               "maxWidth": "960px",
               "fontFamily": "Roboto",
               "color": "#000000b3"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "pageName": "Page231",
+      "pagePath": "/chrome-os-system-menu",
+      "children": [
+        {
+          "type": "Container",
+          "variant": "default",
+          "children": [
+            {
+              "type": "header",
+              "variant": "default",
+              "props": {
+                "style": {
+                  "paddingTop": "4%",
+                  "paddingBottom": "4%"
+                }
+              },
+              "children": [
+                {
+                  "type": "p",
+                  "children": [
+                    {
+                      "type": "Link",
+                      "variant": "default",
+                      "children": [
+                        {
+                          "type": "span",
+                          "text": "↤ Work /",
+                          "props": {
+                            "style": {
+                              "color": "#969696",
+                              "fontSize": "13px",
+                              "fontFamily": "Roboto Mono",
+                              "fontWeight": 300,
+                              "lineHeight": 1.6
+                            }
+                          }
+                        }
+                      ],
+                      "namespace": "Router",
+                      "props": {
+                        "to": "work"
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "variant": "default",
+                      "props": {
+                        "style": {
+                          "color": "#000000b3",
+                          "fontFamily": "Roboto Mono",
+                          "fontSize": "25px",
+                          "fontWeight": 400,
+                          "lineHeight": "40px"
+                        }
+                      },
+                      "children": [],
+                      "text": " Chrome OS system menu"
+                    }
+                  ],
+                  "props": {
+                    "style": {
+                      "marginBottom": "1%"
+                    }
+                  }
+                },
+                {
+                  "type": "p",
+                  "variant": "default",
+                  "props": {
+                    "style": {
+                      "paddingTop": "3%",
+                      "paddingBottom": "3%",
+                      "color": "#000000b3",
+                      "fontSize": "15px",
+                      "fontWeight": 400,
+                      "lineHeight": "30px",
+                      "marginBottom": "25px"
+                    }
+                  },
+                  "children": [
+                    {
+                      "type": "span",
+                      "text": "The Chrome OS system menu is one of the key part of all Chromebook. It is the quick access point to the most essential parts of the operationg system, akin to the quick settings menu on Android. Always avaialbe, this transient UI enables the user to control the core features of the OS such as WiFi, tethering, data, brightness, volume, VPN, Bluetooth, etc...",
+                      "props": {}
+                    },
+                    {
+                      "type": "EmptySpace",
+                      "variant": "default",
+                      "children": [],
+                      "namespace": "Layout",
+                      "props": {
+                        "height": 60
+                      }
+                    },
+                    {
+                      "type": "span",
+                      "text": "The System menu is also the parent of various other system panels, all of which are attached to the shelf, providing the user quick access to all the system features he might need at the right time. In ChromeOS M56, this UI surface was redesigned in depth to bring a clean, balanced UI as well as new features. We made a point of delivering pixel perfect implementation based on thorough and well documented specs and mock-ups which you can discover below.",
+                      "props": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "namespace": "Container",
+          "props": {
+            "style": {
+              "width": "90%",
+              "margin": "0 auto",
+              "fontFamily": "Roboto",
+              "maxWidth": "960px"
             }
           }
         }

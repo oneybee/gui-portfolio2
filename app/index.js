@@ -8,8 +8,6 @@ import { applyRouterMiddleware, Router, browserHistory } from "react-router";
 import { useScroll } from "react-router-scroll";
 // Import routes
 import rootRoute from "./routes";
-import "./assets/styles/normalize.css";
-import "./assets/styles/font.css";
 
 import configureStore from "./store";
 // Create redux store with history

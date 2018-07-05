@@ -476,5 +476,118 @@
         }
       }
     ]
+  },
+  {
+    "type": "Column",
+    "namespace": "Layout",
+    "variant": "gabriel-work-col6",
+    "props": {
+      "col": 6,
+      "style": {
+        "marginBottom": "10%"
+      }
+    },
+    "children": [
+      {
+        "type": "div",
+        "variant": "default",
+        "props": {
+          "style": {
+            "paddingBottom": "20px"
+          }
+        },
+        "children": [
+          {
+            "type": "Link",
+            "variant": "default",
+            "children": [
+              {
+                "type": "Hover",
+                "variant": "default",
+                "children": [
+                  {
+                    "type": "img",
+                    "variant": "default",
+                    "props": {
+                      "src": "http://sebastien-gabriel.com/images/portfolio/chrome-os-system-menu.png",
+                      "style": {
+                        "maxWidth": "100%",
+                        "cursor": "pointer"
+                      }
+                    },
+                    "children": []
+                  }
+                ],
+                "namespace": "Animations",
+                "props": {
+                  "style": {
+                    "display": "inline-block"
+                  },
+                  "transition": {
+                    "target": "all",
+                    "time": 250
+                  },
+                  "boxShadow": "0 12px 65px 2px rgba(41,99,255,0.30), 0 1px 2px 1px rgba(41,99,255,0)"
+                }
+              }
+            ],
+            "namespace": "Router",
+            "props": {
+              "style": {
+                "display": "inline-block"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "span",
+        "variant": "default",
+        "props": {
+          "style": {
+            "fontSize": "11px",
+            "fontWeight": 400,
+            "lineHeight": 1.6,
+            "color": "#969696",
+            "display": "block"
+          }
+        },
+        "children": [],
+        "text": "JAN 2017"
+      },
+      {
+        "type": "EmptySpace",
+        "variant": "default",
+        "children": [],
+        "namespace": "Layout",
+        "props": {
+          "height": 10
+        }
+      },
+      {
+        "type": "p",
+        "variant": "default",
+        "props": {
+          "style": {
+            "fontSize": "17px",
+            "fontWeight": 400,
+            "fontFamily": "Roboto Mono"
+          }
+        },
+        "children": [
+          {
+            "type": "span",
+            "text": "Chrome OS system menu",
+            "props": {
+              "style": {
+                "display": "inline-block",
+                "color": "#5A5A5A",
+                "cursor": "pointer"
+              }
+            }
+          }
+        ]
+      }
+    ]
   }
 ]
